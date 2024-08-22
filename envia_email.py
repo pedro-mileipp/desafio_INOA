@@ -1,9 +1,6 @@
 import smtplib
 import email.message
-import configparser
-
-config = configparser.ConfigParser()
-config.read('config.ini')
+import configparser''
 
 corpoTeste = "E-mail enviado com sucesso"
 assuntoTeste = "Teste do envio de e-mail com Python"
